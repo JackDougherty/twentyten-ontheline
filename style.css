@@ -1,0 +1,57 @@
+/*
+Theme Name: Twenty Ten child theme OnTheLine
+Description: Child theme of Twenty Ten theme for OnTheLine.trincoll.edu 
+Author: Jack Dougherty
+Author URI: http://bit.ly/jackdougherty
+Template: twentyten
+Version: 2012Summer
+*/
+
+@import url("../twentyten/style.css");
+
+
+/* see subtitle hard-coded into header.php */
+#subtitle {
+	font-size:20px;
+	line-height: 20px;
+	color: #000000
+}
+/* modified site description that appears in header.php*/
+#site-description {
+    font-style: italics;
+    margin: 0px 0 18px;
+    width: 200px;
+	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+/* modified font for SimpleFootnotes display*/
+.entry-content sup,
+.entry-content sub {
+	font-size: 14px;
+}
+
+
+/*CLEAN UP: inserted to roughly match Breadcrumb NavXT and Next Page plugins to Vertical Menu items in TOC*/
+.breadcrumbs {
+	font-size: 14px;
+    line-height: 18px;
+	font-family: Georgia,"Bitstream Charter",serif;
+}
+.breadcrumbs a:link, .breadcrumbs a:visited {
+    text-decoration: underline !important;
+}
+
+.navigation {
+    font-size: 14px;
+    line-height: 18px;
+	font-family: Georgia,"Bitstream Charter",serif;
+}
+
+.navigation a:link, .navigation a:visited {
+    text-decoration: none;
+}
+
+.navigation a:link {
+    color: #0066CC;
+}
