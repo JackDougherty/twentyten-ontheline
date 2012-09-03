@@ -4,7 +4,7 @@ Description: Child theme of Twenty Ten theme for OnTheLine.trincoll.edu
 Author: Jack Dougherty
 Author URI: http://commons.trincoll.edu/jackdougherty
 Template: twentyten
-Version: 2012-09-01
+Version: 2012-09-03
 */
 
 @import url("../twentyten/style.css");
@@ -16,7 +16,7 @@ Version: 2012-09-01
 	line-height: 20px;
 	color: #000000
 }
-/* modified site description that appears in header.php*/
+/* modified site description and image border that appears in header.php*/
 #site-description {
     font-style: italics;
     margin: 0px 0 18px;
@@ -24,6 +24,9 @@ Version: 2012-09-01
 	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
     font-size: 14px;
     line-height: 18px;
+}
+#branding img {
+  border-top-width:1px;
 }
 
 /*modified font and space for jQuery Vertical Accordion Menu plugin in widget */
